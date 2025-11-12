@@ -234,7 +234,7 @@ h4{
 
 
 /* oder card style */
-.card-tab{
+#card-box{
 
     background: var(--hint-yellow);
     position: fixed;
@@ -249,11 +249,11 @@ h4{
     box-shadow: rgb(0,0,0,0.1) -10px -10px 20px;
     transition: .3s ease-in-out;
 }
-.card-tab-active{
+#card-box-active{
     inset: 0 0 0 auto;
 
 }
-.cart-list{
+#cart-items{
     flex: 1;
     margin-top:1.5rem;
     overflow: auto;
@@ -261,7 +261,7 @@ h4{
 
 }
 
-.cart-list::-webkit-scrollbar{
+#cart-items::-webkit-scrollbar{
     width: 0;
     
 }
